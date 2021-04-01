@@ -5,8 +5,60 @@
 
 html,
 body {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-size: 18px;
 }
 
 /* Add styles here! */
+header {
+  width: 100%;
+  padding: 96px 0 48px;
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+.max-width-wrapper {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.intro-chunk {
+  max-width: 550px;
+  padding: 0 32px 0;
+}
+
+.title {
+  margin-bottom: 64px;
+}
+
+.intro-chunk p {
+  font-size: 27px;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+main {
+  padding: 96px 0;
+  border-top: 10px solid hsl(0deg, 0%, 40%);
+  background-color: hsl(0deg, 0%, 60%);
+}
+
+.card {
+  border-bottom: 10px solid hsl(0deg, 0%, 40%);
+  padding: 8px 32px 16px;
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+.indented-heading {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 8px;
+  margin-left: -48px;
+  border-bottom: 10px solid hsl(45deg, 100%, 40%);
+  padding: 24px 48px;
+  background-color: hsl(45deg, 100%, 50%);
+}
+
